@@ -419,7 +419,7 @@ body {
 }
 
 .active {
-    visibality:visible;
+    visibility:visible;
     pointer-events: auto;
     /* opacity: 1; */
     display: block;
