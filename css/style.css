@@ -405,7 +405,7 @@ body {
 
 /* form */
 .Form {
-    width: 100%;
+   width: 100%;
     background-color: rgb(173, 169, 169);
     position: absolute;
     display: flex;
@@ -413,10 +413,12 @@ body {
     align-items: center;
     transform: translateX(100%);
     transition: .5s;
-    visibility:hidden;
+    visibility: hidden;
+    padding: -15px 0px;
 }
 
 .active {
+    width:100%;
     visibility:visible;
     pointer-events: auto;
     transform: translateX(0%);
